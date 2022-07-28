@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Project_Finansie.Views"
         mc:Ignorable="d"
         Title="Betalingen" Height="450" Width="800">
-    <Grid>
+    <Grid SizeChanged= "Grid_SizeChanged">
         <Button x:Name="btn_HomePage" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Home" Margin="318,342,318,45"
                 Command="{Binding}"  CommandParameter="HomePage"/>
     </Grid>
