@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Finansie.HulpClassen;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,16 +9,22 @@ namespace Project_Finansie.ViewModels
 {
     class HomePageViewModel : BasisViewModel
     {
-        public override string this[string columnName] => throw new NotImplementedException();
+        public override string this[string columnName]
+        {
+            get
+            {
+                return "";
+            }
+        }
 
         public override bool CanExecute(object parameter)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         public override void Execute(object parameter)
         {
-            throw new NotImplementedException();
+            ViewModelHelper.ShowVieuw(parameter);
         }
     }
 }

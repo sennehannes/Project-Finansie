@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\App.xaml
-21445786775
+51725682281
 
-10-574824400
+17-1650476780
 18207615890
-MainWindow.xaml;Views\HomePage.xaml;
+MainWindow.xaml;Views\Betalingen.xaml;Views\Geschiedenis.xaml;Views\HomePage.xaml;Views\Ontvangste.xaml;
 
-False
+True
 

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Project_Finansie.HulpClassen;
 
 namespace Project_Finansie.Views
 {
@@ -22,6 +23,34 @@ namespace Project_Finansie.Views
         public HomePage()
         {
             InitializeComponent();
+        }
+
+        private void Grid_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+
+            double newWindowHeight = e.NewSize.Height;
+            double newWindowWidth = e.NewSize.Width;
+            double prevWindowHeight = e.PreviousSize.Height;
+            double prevWindowWidth = e.PreviousSize.Width;
+            double windownSizeChangeHightPersentile = newWindowHeight / prevWindowHeight;
+            double windownSizeChangeWidthPersentile = newWindowWidth / prevWindowWidth;
+            if (windownSizeChangeHightPersentile < 20 && windownSizeChangeWidthPersentile < 20)
+            {
+                AllComponents(windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile);
+            }
+
+            if (windownSizeChangeHightPersentile > 20 && windownSizeChangeWidthPersentile > 20)
+
+            {
+                AllComponents(UpdateForWindowScaling: true);
+            }
+        }
+
+        private void AllComponents(double windownSizeChangeHightPersentile = 1, double windownSizeChangeWidthPersentile = 1, bool UpdateForWindowScaling = false)
+        {
+            WindowChanger.WindowSizeChanger(btn_Ontvangste, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(btn_Betalingen, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(btn_Geschiednis, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
         }
     }
 }

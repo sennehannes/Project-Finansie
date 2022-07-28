@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="HomePage" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btn_Ontvangste" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Ontvangste" Margin="80,342,556,45"
+                Command="{Binding}"  CommandParameter="Ontvangste"/>
+        <Button x:Name="btn_Betalingen" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Betalingen" Margin="318,342,318,45"
+                Command="{Binding}"  CommandParameter="Betalingen"/>
+        <Button x:Name="btn_Geschiednis" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Geschiedenis" Margin="556,342,80,45"
+                Command="{Binding}"  CommandParameter="Geschiedenis"/>
     </Grid>
 </Window>

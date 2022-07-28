@@ -71,10 +71,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HulpClassen\ViewModelHelper.cs" />
     <Compile Include="ViewModels\BasisViewModel.cs" />
+    <Compile Include="ViewModels\BetalingenViewModel.cs" />
+    <Compile Include="ViewModels\GeschiedenisViewModel.cs" />
+    <Compile Include="ViewModels\OntvangsteViewModel.cs" />
     <Compile Include="ViewModels\HomePageViewModel.cs" />
+    <Compile Include="Views\Betalingen.xaml.cs">
+      <DependentUpon>Betalingen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Geschiedenis.xaml.cs">
+      <DependentUpon>Geschiedenis.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ontvangste.xaml.cs">
+      <DependentUpon>Ontvangste.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -89,7 +102,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Betalingen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Geschiedenis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Ontvangste.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
