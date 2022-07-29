@@ -7,7 +7,15 @@
         mc:Ignorable="d"
         Title="Betalingen" Height="450" Width="800">
     <Grid SizeChanged= "Grid_SizeChanged">
-        <Button x:Name="btn_HomePage" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Home" Margin="318,342,318,45"
+        <!-- header -->
+        <TextBlock x:Name="Clrb_Header" Background="Blue" Margin="0,0,0,327"/>
+        <Button x:Name="btn_HomePage" Foreground="Black" BorderThickness="2" BorderBrush="Black"  Background="White" Content="Home" Margin="513,31,123,356"
                 Command="{Binding}"  CommandParameter="HomePage"/>
+
+        <!-- Footer -->
+        <TextBlock x:Name="Clrb_Footer" Background="Purple" Margin="0,363,0,0"/>
+        <TextBlock x:Name="Clrb_Black1" Background="Black" Height="5" Margin="0,358,0,56"></TextBlock>
+        <TextBlock x:Name="Txt_Copyright" Text="Copyright - Senne Hannes - 2022" Margin="137,375,151,10" FontSize="30" RenderTransformOrigin="0.496,0.872"></TextBlock>
+   
     </Grid>
 </Window>

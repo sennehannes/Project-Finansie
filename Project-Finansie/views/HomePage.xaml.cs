@@ -48,9 +48,17 @@ namespace Project_Finansie.Views
 
         private void AllComponents(double windownSizeChangeHightPersentile = 1, double windownSizeChangeWidthPersentile = 1, bool UpdateForWindowScaling = false)
         {
+            //content
             WindowChanger.WindowSizeChanger(btn_Ontvangste, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
             WindowChanger.WindowSizeChanger(btn_Betalingen, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
             WindowChanger.WindowSizeChanger(btn_Geschiednis, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+
+            //header-footer
+            WindowChanger.WindowSizeChanger(Clrb_Black1, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Clrb_Header, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Clrb_Footer, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(btn_HomePage, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Txt_Copyright, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
         }
     }
 }
