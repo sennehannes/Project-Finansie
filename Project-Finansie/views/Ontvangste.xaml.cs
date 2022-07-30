@@ -47,6 +47,14 @@ namespace Project_Finansie.Views
 
         private void AllComponents(double windownSizeChangeHightPersentile = 1, double windownSizeChangeWidthPersentile = 1, bool UpdateForWindowScaling = false)
         {
+            //Content
+            WindowChanger.WindowSizeChanger(Grid_Ontvangste, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Txt_Berdag, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Txt_NaamVerzender, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Txb_Berdag, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Txb_NaamVerzender, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+            WindowChanger.WindowSizeChanger(Btn_Toevoegen, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
+
             //header-footer
             WindowChanger.WindowSizeChanger(Clrb_Black1, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);
             WindowChanger.WindowSizeChanger(Clrb_Header, windownSizeChangeHightPersentile, windownSizeChangeWidthPersentile, UpdateForWindowScaling);

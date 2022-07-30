@@ -1,0 +1,14 @@
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\Project_Finansie_DAL.dll.config
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\Project_Finansie_DAL.dll
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\Project_Finansie_DAL.pdb
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.csproj.CopyComplete
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.dll
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.pdb
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.Migrations.InitialCreation.resources
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project_Finansie_DAL\obj\Debug\Project_Finansie_DAL.csproj.GenerateResource.cache
