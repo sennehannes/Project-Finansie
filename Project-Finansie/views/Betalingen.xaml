@@ -16,6 +16,28 @@
         <TextBlock x:Name="Clrb_Footer" Background="Purple" Margin="0,786,0,0"/>
         <TextBlock x:Name="Clrb_Black1" Background="Black" Height="5" Margin="0,781,-28,83"></TextBlock>
         <TextBlock x:Name="Txt_Copyright" Text="Copyright - Senne Hannes - 2022" Margin="433,813,577,10" FontSize="30" RenderTransformOrigin="0.496,0.872"></TextBlock>
-   
+
+        <!--Naam-Verzender-->
+        <TextBlock x:Name="Txt_NaamOntvanger" FontSize="15" Foreground="Black"  TextAlignment="Center" Margin="59,282,1303,566" Text="Naam Verzender *" />
+        <TextBox x:Name="Txb_NaamOntvanger" Text="{Binding Naam, ValidatesOnDataErrors=True}" FontSize="20" Foreground="Black" Background="LightGray" TextAlignment="Center" Margin="59,305,1303,531"></TextBox>
+
+        <!--Bedrag-->
+        <TextBlock x:Name="Txt_Berdag" FontSize="15" Foreground="Black"  TextAlignment="Center" Margin="355,282,1007,564" Text="Bedrag *" />
+        <TextBox x:Name="Txb_Bedrag" Text="{Binding Bedrag, ValidatesOnDataErrors=True}" FontSize="20" Foreground="Black" Background="LightGray" TextAlignment="Center" Margin="355,305,1007,531"></TextBox>
+
+        <Button x:Name="Btn_Toevoegen" Foreground="White" Background="DeepSkyBlue" FontSize="20" Content="Toevoegem" Command="{Binding}" CommandParameter="Toevoegen" Margin="620,305,809,532" />
+
+        <Grid Margin="53,407,54,188" x:Name="Grid_Betalingen">
+            <ScrollViewer x:Name="scrollViewer" VerticalScrollBarVisibility="Visible"/>
+            <DataGrid x:Name="datagridBoeken" AutoGenerateColumns="False" Grid.Column="0" 
+                  IsReadOnly="True" ItemsSource="{Binding Ontvangste}" Margin="0,0,23,0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Gebruiker.naam}" Header="Naam Verstuurder"/>
+                    <DataGridTextColumn Binding="{Binding Ontvangste.bedrag}" Header="Bedrag"/>
+                    <DataGridTextColumn Binding="{Binding Ontvangste.datum}" Header="Datum van ontvangst"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
     </Grid>
 </Window>

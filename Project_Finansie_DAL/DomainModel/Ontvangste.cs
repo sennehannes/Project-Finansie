@@ -21,6 +21,6 @@ namespace Project_Finansie_DAL.DomainModel
         [Required]
         public double Hoeveelheid { get; set; }
 
-        public Users User { get; set; }
+        public Users Uwser { get; set; }
     }
 }
