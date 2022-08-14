@@ -14,6 +14,6 @@ namespace Project_Finansie_DAL.Data.UnitOfWork
         IRepository<DomainModel.Betalingen> BetalingenRepo { get; }
         IRepository<DomainModel.Ontvangste> OntvangsteRepo { get; }
         IRepository<DomainModel.Users> UsersRepo { get; }
-        int save();
+        int Save();
     }
 }

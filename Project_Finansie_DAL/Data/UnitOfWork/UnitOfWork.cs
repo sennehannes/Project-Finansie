@@ -8,7 +8,7 @@ using Project_Finansie_DAL.Data.Repositorys;
 
 namespace Project_Finansie_DAL.Data.UnitOfWork
 {
-    class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         #region attributen
         public IRepository<Betalingen> _betalingenRepo;
@@ -62,6 +62,16 @@ namespace Project_Finansie_DAL.Data.UnitOfWork
                 }
                 return _usersRepo;
             }
+        }
+
+        public void Dispose()
+        {
+            Finansie_Enteties.Dispose();
+        }
+
+        public int Save()
+        {
+            return Finansie_Enteties.SaveChanges();
         }
 
         #endregion

@@ -18,9 +18,9 @@
         <TextBlock x:Name="Txt_Copyright" Text="Copyright - Senne Hannes - 2022" Margin="433,813,577,10" FontSize="30" RenderTransformOrigin="0.496,0.872"></TextBlock>
 
         <!--Naam-Verzender-->
-        <TextBlock x:Name="Txt_NaamOntvanger" FontSize="15" Foreground="Black"  TextAlignment="Center" Margin="59,282,1303,566" Text="Naam Verzender *" />
-        <TextBox x:Name="Txb_NaamOntvanger" Text="{Binding Naam, ValidatesOnDataErrors=True}" FontSize="20" Foreground="Black" Background="LightGray" TextAlignment="Center" Margin="59,305,1303,531"></TextBox>
-
+        <TextBlock x:Name="Txt_NaamOntvanger" FontSize="15" Foreground="Black"  TextAlignment="Center" Margin="59,282,1303,566" Text="Naam Ontvanger *" />
+        <TextBox x:Name="Txb_NaamOntvanger" Text="{Binding NaamOntvanger, ValidatesOnDataErrors=True}" FontSize="20" Foreground="Black" Background="LightGray" TextAlignment="Center" Margin="59,305,1303,531"></TextBox>
+        
         <!--Bedrag-->
         <TextBlock x:Name="Txt_Berdag" FontSize="15" Foreground="Black"  TextAlignment="Center" Margin="355,282,1007,564" Text="Bedrag *" />
         <TextBox x:Name="Txb_Bedrag" Text="{Binding Bedrag, ValidatesOnDataErrors=True}" FontSize="20" Foreground="Black" Background="LightGray" TextAlignment="Center" Margin="355,305,1007,531"></TextBox>

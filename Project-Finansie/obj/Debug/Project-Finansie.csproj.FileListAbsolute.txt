@@ -32,3 +32,6 @@ C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\
 C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\obj\Debug\Views\Betalingen.baml
 C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\obj\Debug\Views\Geschiedenis.baml
 C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\obj\Debug\Views\Ontvangste.baml
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\bin\Debug\Project_Finansie_DAL.dll
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\bin\Debug\Project_Finansie_DAL.pdb
+C:\Users\Gebruiker\Desktop\project-gevorderde\Project-Finansie\Project-Finansie\bin\Debug\Project_Finansie_DAL.dll.config
